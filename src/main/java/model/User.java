@@ -3,11 +3,11 @@ package model;
 public class User {
     private Long id;
 
-    private String username;
-    private String password;
-    private String usertype;
+    private String userName;
+    private String passWord;
+    private String userType;
     private String enabled;
-    private String realname;
+    private String realName;
     private String qq;
     private String email;
     private String tel;
@@ -20,28 +20,28 @@ public class User {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getUserName() {
+        return userName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 
-    public String getPassword() {
-        return password;
+    public String getPassWord() {
+        return passWord;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setPassWord(String passWord) {
+        this.passWord = passWord;
     }
 
-    public String getUsertype() {
-        return usertype;
+    public String getUserType() {
+        return userType;
     }
 
-    public void setUsertype(String usertype) {
-        this.usertype = usertype;
+    public void setUserType(String userType) {
+        this.userType = userType;
     }
 
     public String getEnabled() {
@@ -52,12 +52,12 @@ public class User {
         this.enabled = enabled;
     }
 
-    public String getRealname() {
-        return realname;
+    public String getRealName() {
+        return realName;
     }
 
-    public void setRealname(String realname) {
-        this.realname = realname;
+    public void setRealName(String realName) {
+        this.realName = realName;
     }
 
     public String getQq() {
@@ -88,11 +88,11 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", usertype='" + usertype + '\'' +
+                ", userName='" + userName + '\'' +
+                ", passWord='" + passWord + '\'' +
+                ", userType='" + userType + '\'' +
                 ", enabled='" + enabled + '\'' +
-                ", realname='" + realname + '\'' +
+                ", realName='" + realName + '\'' +
                 ", qq='" + qq + '\'' +
                 ", email='" + email + '\'' +
                 ", tel='" + tel + '\'' +

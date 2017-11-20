@@ -2,8 +2,8 @@ package model;
 
 public class Country {
     private Long id;
-    private String countryname;
-    private String countrycode;
+    private String countryName;
+    private String countryCode;
 
     public Long getId() {
         return id;
@@ -13,19 +13,28 @@ public class Country {
         this.id = id;
     }
 
-    public String getCountryname() {
-        return countryname;
+    public String getCountryName() {
+        return countryName;
     }
 
-    public void setCountryname(String countryname) {
-        this.countryname = countryname;
+    public void setCountryName(String countryName) {
+        this.countryName = countryName;
     }
 
-    public String getCountrycode() {
-        return countrycode;
+    public String getCountryCode() {
+        return countryCode;
     }
 
-    public void setCountrycode(String countrycode) {
-        this.countrycode = countrycode;
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
+    }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "id=" + id +
+                ", countryName='" + countryName + '\'' +
+                ", countryCode='" + countryCode + '\'' +
+                '}';
     }
 }

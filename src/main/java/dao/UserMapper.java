@@ -2,11 +2,11 @@ package dao;
 
 import model.User;
 import org.apache.ibatis.annotations.*;
-import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
-
+@Repository
 public interface UserMapper {
     // 通过Parameter新增
     @Insert("INSERT INTO USER(NAME, AGE) VALUES(#{name}, #{age})")
