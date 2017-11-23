@@ -1,7 +1,7 @@
 package model;
 
 public class User {
-    private Long id;
+    private String id;
 
     private String userName;
     private String passWord;
@@ -12,11 +12,11 @@ public class User {
     private String email;
     private String tel;
 
-    public Long getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(String id) {
         this.id = id;
     }
 
