@@ -1,15 +1,15 @@
-package model;
+package com.learn.springboot.model;
 
 public class Country {
-    private String id;
+    private Long id;
     private String countryName;
     private String countryCode;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

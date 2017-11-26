@@ -1,17 +1,17 @@
-package model;
+package com.learn.springboot.model;
 
 public class City {
 
-    private String id;
+    private Long id;
 
     private String name;
     private String state;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

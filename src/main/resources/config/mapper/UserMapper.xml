@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="dao.UserDao">
+<mapper namespace="com.learn.springboot.dao.UserMapper">
     <resultMap id="userMap" type="User">
         <result column="id" property="id"/>
-        <result column="id" property="userName"/>
-        <result column="id" property="id"/>
-        <result column="id" property="id"/>
-        <result column="id" property="id"/>
+        <result column="user_name" property="userName"/>
+        <result column="pass_word" property="passWord"/>
+        <result column="user_type" property="userType"/>
+        <result column="enabled" property="enabled"/>
+        <result column="real_name" property="realName"/>
+        <result column="qq" property="qq"/>
+        <result column="email" property="email"/>
+        <result column="tel" property="tel"/>
     </resultMap>
+
     <select id="getUserById" parameterType="User" resultMap="userMap">
-        select * FROM  user_info wehere id = #{id}
+      select * from user_info where id = #{id}
     </select>
 </mapper>

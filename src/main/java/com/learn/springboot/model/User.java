@@ -1,7 +1,7 @@
-package model;
+package com.learn.springboot.model;
 
 public class User {
-    private String id;
+    private Long id;
 
     private String userName;
     private String passWord;
@@ -12,11 +12,11 @@ public class User {
     private String email;
     private String tel;
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
