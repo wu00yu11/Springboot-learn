@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
-import runMain.RunMain;
+import com.learn.springboot.RunMain;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = RunMain.class,webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)

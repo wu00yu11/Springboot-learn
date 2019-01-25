@@ -5,6 +5,9 @@ import com.learn.springboot.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import com.learn.springboot.service.IUserService;
+/**
+ * @author jingjing.zhang
+ */
 @Service("userService")
 public class UserServiceImpl implements IUserService {
     @Autowired

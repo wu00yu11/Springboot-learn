@@ -5,6 +5,9 @@ import com.learn.springboot.model.City;
 import com.learn.springboot.service.ICityService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+/**
+ * @author jingjing.zhang
+ */
 @Service("cityService")
 public class CityServiceImpl implements ICityService {
     @Autowired
